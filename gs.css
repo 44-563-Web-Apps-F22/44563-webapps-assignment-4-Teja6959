@@ -29,7 +29,7 @@
 }
 .name:hover
 {
-   text-shadow: 5px 5px blue;
+   text-shadow: 5px 5px 5px blue;
    border: 5px;
 
 }
@@ -67,3 +67,22 @@
     color: black;
     
   }
+  ul.navbar-horizontal {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    ul.navbar-horizontal li {
+    float:left; 
+    color:red;
+    background-color:blue;
+    }
+    ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+    }
+    ul.navbar-horizontal a:hover {  
+    background-color: #555;
+    color:white;
+    }
